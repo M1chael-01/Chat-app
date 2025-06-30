@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "serverName": "Server",
+    "password": "1234",
+    "port": 500,
+    "createdAt": "2025-06-23T10:40:02.585Z"
+  },
+  {
+    "id": 2,
+    "serverName": "Privace",
+    "password": "1234",
+    "port": 500,
+    "createdAt": "2025-06-23T18:41:39.941Z"
+  },
+  {
+    "id": 3,
+    "serverName": "My server",
+    "password": "123",
+    "port": "3000",
+    "createdAt": "2025-06-30T10:02:57.671Z"
+  },
+  {
+    "id": 4,
+    "serverName": "fbgf",
+    "password": "ffg",
+    "port": 500,
+    "createdAt": "2025-06-30T10:05:24.863Z"
+  },
+  {
+    "id": 5,
+    "serverName": "Server-1",
+    "password": "123",
+    "port": 500,
+    "createdAt": "2025-06-30T10:12:05.098Z"
+  }
+]

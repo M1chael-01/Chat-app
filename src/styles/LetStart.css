@@ -1,0 +1,101 @@
+/* LetStart.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.letstart {
+  padding: 2rem;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+/* Top header section */
+.letstart-header {
+  text-align: center;
+  margin-bottom: 3rem;
+   margin-top: 15vh;
+}
+
+.letstart-header h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.letstart-header p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  max-width: 700px;
+  margin: 1rem auto 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Card container */
+.letstart-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+ 
+}
+
+/* Card styling */
+.letstart-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 520px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.letstart-card:hover {
+  transform: translateY(-5px);
+}
+
+.letstart-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.letstart-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Button styling */
+.letstart-card button {
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.letstart-card button:hover {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
