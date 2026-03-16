@@ -4,7 +4,7 @@ A real-time chat application showcasing a clean UI/UX, built with **React**, **N
 
 ---
 
-## ✅ Features
+## Features
 
 - Real-time chat powered by **Socket.io**
 - Responsive, modern UI with **React**
@@ -19,7 +19,7 @@ This project was bootstrapped with [**Create React App**](https://create-react-a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Frontend             | Backend                          | Real-Time  |
 |----------------------|----------------------------------|------------|
