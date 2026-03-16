@@ -1,4 +1,4 @@
-# Chat App 🚀
+# Chat App 
 
 A real-time chat application showcasing a clean UI/UX, built with **React**, **Node.js**, and **Socket.io**.
 
@@ -13,7 +13,7 @@ A real-time chat application showcasing a clean UI/UX, built with **React**, **N
 
 ---
 
-## 🧰 Bootstrapped with Create React App
+##  Bootstrapped with Create React App
 
 This project was bootstrapped with [**Create React App**](https://create-react-app.dev/), which provides a ready-to-use React environment with zero config, fast refresh, and optimized production builds.
 
@@ -28,7 +28,7 @@ This project was bootstrapped with [**Create React App**](https://create-react-a
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 1. **Clone the repository**
 
